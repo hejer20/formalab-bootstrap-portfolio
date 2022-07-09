@@ -1,15 +1,38 @@
-*{
+* {
+
     margin: 0px;
     padding: 0px;
 }
-.title::after{
-    
-        content: "";
-        position: absolute;
-        background-color: black;
-        width: 50px;
-        height: 3px;
-        top: 210px;
-        margin-left: 20px;
-    
+.title::after {
+    content: "";
+    display: inline-block;
+
+    margin: 0 .6em 0 2%;
+    vertical-align: middle;
+    border-bottom: 2px solid;
+    width: 50px;
 }
+
+
+
+
+.aboutme::before {
+    content: "";
+    display: inline-block;
+    margin: 0 .7em 0 -35%;
+    vertical-align: middle;
+    border-bottom: 2px solid;
+    width: 50px;
+}
+.aboutme{
+    text-align: center;
+}
+.aboutme::after {
+    content: "";
+    display: inline-block;
+    margin: 0 .6em 0 4%;
+    vertical-align: middle;
+    border-bottom: 2px solid;
+    width: 50px;
+}
+
